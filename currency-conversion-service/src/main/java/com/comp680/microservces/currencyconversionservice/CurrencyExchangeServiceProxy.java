@@ -14,3 +14,8 @@ public interface CurrencyExchangeServiceProxy {
 	public CurrencyConversionBean retrieveExchangeValue
 	(@PathVariable("from") String from, @PathVariable("to") String to);
 }
+
+
+//http://localhost:8000/currency-exchange/from/USD/to/ENR
+//http://localhost:8100/currency-converter-feign/from/USD/to/ENR/quantity/100
+//http://localhost:8001/currency-exchange/from/USD/to/ENR
