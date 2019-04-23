@@ -12,4 +12,5 @@ public class SpringCloudConfigServerApplication {
 		SpringApplication.run(SpringCloudConfigServerApplication.class, args);
 	}
 
+	//http://localhost:8888/limits-service/default
 }
