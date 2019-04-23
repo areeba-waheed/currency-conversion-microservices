@@ -18,5 +18,7 @@ and erlang.org/downloads
 
 run eureka, then api, then microservices to get the zipkin traces, also launch it in the browser
 
+http://localhost:8080/hystrix-fault-example hystrix 
+
 
 
